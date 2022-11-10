@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ...
 ```
 
-3. **Membuat fungsi `setbilangan()`.**
+3. **Membuat fungsi `setbilangan()`.** <br />
 Fungsi ini dibuat untuk menampilkan apakah angka bertipe genap atau ganjil.
 ```
 void setbilangan(){
@@ -53,7 +53,7 @@ children: <Widget>[
     ),
 ...
 ```
-5. **Membuat fungsi `_decrementCounter()`**
+5. **Membuat fungsi `_decrementCounter()`** <br />
 Implementasi fungsi pengurangan kurang lebih sama dengan `_incrementCounter`. 
 Hanya saja ketika angka menampilkan angka nol, pengurangan tidak bisa dilakukan. 
 Fungsi `setbilangan()` dipanggil untuk meng-update tipe dari bilangan.
