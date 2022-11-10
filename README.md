@@ -14,12 +14,12 @@
 
 
 ### Cara Mengimplementasi
-1. Membuat program Flutter baru dengan nama `counter_7`
+1. **Membuat program Flutter baru dengan nama `counter_7`**
 ```
 flutter create counter_7
 ```
 
-2. Menambahkan *variable* `typeofnumber` untuk menampilkan angka bertipe genap atau ganjil pada *page*.
+2. **Menambahkan *variable* `typeofnumber` untuk menampilkan angka bertipe genap atau ganjil pada *page*.**
 Mula-mula inisiasi "GENAP" pada *variable* `typeofnumber` karena pertama kali `_counter` bernilai 0.
 ```
 ...
@@ -29,7 +29,7 @@ class _MyHomePageState extends State<MyHomePage> {
 ...
 ```
 
-3. Membuat fungsi `setbilangan()`.
+3. **Membuat fungsi `setbilangan()`.**
 Fungsi ini dibuat untuk menampilkan apakah angka bertipe genap atau ganjil.
 ```
 void setbilangan(){
@@ -42,7 +42,7 @@ void setbilangan(){
   }
 ```
 
-4. Implementasi genap berwarna biru dan ganjil berwarna merah
+4. **Implementasi genap berwarna biru dan ganjil berwarna merah**
 ```
 ...
 mainAxisAlignment: MainAxisAlignment.center,
@@ -53,7 +53,7 @@ children: <Widget>[
     ),
 ...
 ```
-5. Membuat fungsi `_decrementCounter()`.
+5. **Membuat fungsi `_decrementCounter()`**
 Implementasi fungsi pengurangan kurang lebih sama dengan `_incrementCounter`. 
 Hanya saja ketika angka menampilkan angka nol, pengurangan tidak bisa dilakukan. 
 Fungsi `setbilangan()` dipanggil untuk meng-update tipe dari bilangan.
@@ -65,7 +65,7 @@ void _decrementCounter() {
     });
   }
 ```
-6. Memanggil fungsi `setbilangan()` pada fungsi `_incrementCounter()`
+6. **Memanggil fungsi `setbilangan()` pada fungsi `_incrementCounter()`**
 ```
    void _incrementCounter() {
    ...
@@ -73,7 +73,7 @@ void _decrementCounter() {
    ...
    }
 ```
-7. Mengimplementasi `tombol -`.
+7. **Mengimplementasi `tombol -`.**
 ```
 ...
 FloatingActionButton(
@@ -83,7 +83,7 @@ FloatingActionButton(
 ),
 ...
 ```
-8. Hide `tombol -` ketika `_counter` bernilai 0
+8. **Hide `tombol -` ketika `_counter` bernilai 0**
 ```
 ...
 Visibility(
